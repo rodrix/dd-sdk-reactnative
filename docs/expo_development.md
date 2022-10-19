@@ -37,7 +37,7 @@ Run `eas secret:create` to set `DATADOG_API_KEY` to your Datadog API key, and `D
 Add the following code snippet to your initialization file:
 
 ```js
-import { DdSdkReactNative, DdSdkReactNativeConfiguration } from 'expo-datadog';
+import { DdSdkReactNative, DdSdkReactNativeConfiguration, SdkVerbosity } from 'expo-datadog';
 
 const config = new DdSdkReactNativeConfiguration(
     '<CLIENT_TOKEN>',
